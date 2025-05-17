@@ -1,0 +1,6 @@
+if[water=paani]
+then
+echo "water is paani"
+else
+echo "water is not paani"
+fi

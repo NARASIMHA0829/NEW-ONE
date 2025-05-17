@@ -1,0 +1,36 @@
+#!/bin/bash
+if [ $1 -eq5 ]
+then
+echo " $1 is five "
+else
+echo " $1 is not five "
+fi
+   
+
+
+biggest of 2 numbers
+#!/bin/bash
+if [ $1 -gt $2 ]
+then
+echo " $1 is big "              ( script 21 )
+else
+echo " $2 is big "
+fi
+
+
+
+if the user passing more than 2 input arguments restrict
+
+#!/bin/bash
+set -x
+if [ $# -ne$2 ]
+then 
+echo "enter only two input argument"              (script 22)
+exit
+fi 
+if [ $1 -gt $2 ]
+then
+echo " $1 is big "
+else
+echo " $2 is big "
+fi
